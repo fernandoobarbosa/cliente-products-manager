@@ -13,12 +13,9 @@ export default function Products () {
   function getAllProducts () {
     api.get('/Products')
       .then(function (response) {
-        // handle success
-        console.log(response)
         setProducts(response.data)
       })
       .catch(function (error) {
-        // handle error
         console.log(error)
       })
   }
@@ -27,13 +24,9 @@ export default function Products () {
     console.log(card)
     api.delete(`/Products/${card.id}`)
       .then(function (response) {
-      // handle success
-        console.log(response)
         window.location.reload()
       })
       .catch(function (error) {
-      // handle error
-
         console.log(error)
       })
   }

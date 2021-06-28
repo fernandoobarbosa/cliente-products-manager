@@ -35,7 +35,6 @@ export default function EditProduct () {
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, PATCH, DELETE',
         'Content-Type': 'application/json;charset=UTF-8'
       },
-      id: product.id,
       name: content.name,
       price: parseFloat(content.price),
       description: content.description,
