@@ -140,6 +140,7 @@ export default function EditFormProduct ({ product, onSubmitUpdateProduct }) {
                 variant='outlined'
                 fullWidth
                 label='Price'
+                required
                 onChange={onChangePrice}
                 defaultValue={product.price}
               />

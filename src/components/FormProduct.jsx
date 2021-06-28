@@ -138,6 +138,7 @@ export default function FormProduct ({ onSubmitNewProduct }) {
               <TextField
                 variant='outlined'
                 fullWidth
+                required
                 id='price'
                 label='Price'
                 name='price'
