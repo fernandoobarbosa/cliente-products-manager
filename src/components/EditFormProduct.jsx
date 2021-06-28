@@ -69,11 +69,10 @@ export default function EditFormProduct ({ product, onSubmitUpdateProduct }) {
   const onChangeFile = (event) => {
     const fileValue = event.target.files[0]
     // envio do arquivo para o firebase
-    console.log(fileValue)
+
     const storageRef = app.storage().ref()
     const ref = storageRef.child(fileValue.name)
     ref.put(fileValue).then(function (snapshot) {
-      console.log('Uploaded a blob or file!')
       snapshot.ref.getDownloadURL().then(function (response) {
         setImgUrl(response)
       })
@@ -82,7 +81,6 @@ export default function EditFormProduct ({ product, onSubmitUpdateProduct }) {
 
   const onChangeDescription = (event) => {
     setDescription(event.target.value)
-    console.log(description)
   }
 
   const onChangeName = (event) => {
@@ -98,7 +96,6 @@ export default function EditFormProduct ({ product, onSubmitUpdateProduct }) {
   }
 
   const onClickNewTagButton = (event) => {
-    console.log(newTag)
     setOpen(false)
 
     const obj = {
