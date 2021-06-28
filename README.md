@@ -2,9 +2,9 @@
 
 Aplicação de gerenciamento de produtos com tags
 
-A api desta aplicação está no repositório : <br />
- https://github.com/fernandoobarbosa/api-products-manager <br /> 
-assim como sua documentação
+ A api desta aplicação está no repositório : <br />
+  https://github.com/fernandoobarbosa/api-products-manager <br /> 
+ assim como sua documentação
 ---
 ## Como Executar
 
