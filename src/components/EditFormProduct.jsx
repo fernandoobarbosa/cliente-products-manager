@@ -222,7 +222,7 @@ export default function EditFormProduct ({ product, onSubmitUpdateProduct }) {
             color='primary'
             className={classes.submit}
           >
-            New Product
+            Save Product
           </Button>
         </form>
       </div>
