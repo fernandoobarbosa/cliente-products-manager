@@ -21,7 +21,8 @@ As variáveis abaixo são **Necessárias** para o projeto funcionar.
 ### 2 - Iniciando a aplicação
 
   No seu diretório do projeto, instale todas as dependências com o comando :
-  ```npm install
+  ```
+  npm install
   ```
 
   Então, execute o seguinte comando para inicializar a aplicação :
